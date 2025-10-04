@@ -41,7 +41,7 @@ public class ProductResource {
     }
 
 
-    /*
+
     @PostMapping
     public ResponseEntity<ProductDTO> insert(@RequestBody ProductDTO dto){
         dto = service.insert(dto);
@@ -56,7 +56,7 @@ public class ProductResource {
         return ResponseEntity.ok().body(dto);
     }
 
-     */
+
 
     @DeleteMapping(value = "/{id}")
     public ResponseEntity<Void> delete(@PathVariable Long id){
